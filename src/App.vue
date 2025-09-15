@@ -5,6 +5,9 @@
   <p>
     Visit <a href="https://vuejs.org/" target="_blank" rel="noopener">vuejs.org</a> to read the
     documentation
+    <p> TEST </p>
+
+    <img src="./Rick_Sanchez.jpg" alt="">
   </p>
 </template>
 
