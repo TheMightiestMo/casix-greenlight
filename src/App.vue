@@ -12,13 +12,9 @@ import Navbar from '@/pages/Navbar.vue'
 <style scoped lang="scss">
 
 main {
-  /* Füge dies hinzu */
-  padding-top: 70px; /* Passe den Wert an die Höhe deiner Navbar an */
+
+  padding-top: 60px;
 }
-
-
-  //default Styling
-
   :root {
     --primaryColor: hsl(94, 55%, 56%);
     --hoverColor: hsl(93, 75%, 76%);
@@ -105,26 +101,17 @@ main {
     display: flex !important;
     align-items: center;
     gap: 1rem;
-    padding-left: 100px !important; /* Platz für den Button */
+    padding-left: 100px !important;
   }
 
-  /* Back-Button Styling */
+
   .btn.back-button {
     position: absolute;
     left: 20px;
-    transform: translateY(-1px); /* Feinjustierung */
+    transform: translateY(-1px);
     padding: 0.5rem 1rem !important;
     white-space: nowrap;
   }
-
-
-  /*
-  .btn:hover {
-    color: black;
-    background: white;
-  }
-  */
-
 
   //Page Styling
 
@@ -325,11 +312,6 @@ main {
       }
     }
   }
-
-
-/* ====================
-Anpassungen für "Kategorie erstellen"
-==================== */
 
 
 </style>
